@@ -1,0 +1,201 @@
+{
+    "asset": {
+        "copyright": "(C)2023 osain",
+        "generator": "maya2glTF main fbbc95e5dc4d",
+        "version": "2.0"
+    },
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "nodes": [
+        {
+            "name": "candlestick",
+            "children": [
+                1
+            ],
+            "translation": [
+                0.0073432931676507,
+                4.995591640472412,
+                -0.02086467295885086
+            ]
+        },
+        {
+            "name": "candlestick:PIV",
+            "mesh": 0,
+            "translation": [
+                -0.0073432931676507,
+                -4.995591640472412,
+                0.02086467295885086
+            ]
+        }
+    ],
+    "meshes": [
+        {
+            "name": "candlestickShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "lambert1",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.4000000059604645,
+                    0.4000000059604645,
+                    0.4000000059604645,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        }
+    ],
+    "accessors": [
+        {
+            "name": "candlestickShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 86244,
+            "max": [
+                33245
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "candlestickShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 33246,
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "candlestickShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 398952,
+            "componentType": 5126,
+            "count": 33246,
+            "max": [
+                7.29309606552124,
+                10.48939037322998,
+                0.9838758707046508
+            ],
+            "min": [
+                -7.278409957885742,
+                -0.4982068538665772,
+                -1.0256052017211917
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "candlestickShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 33246,
+            "max": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -0.9999974370002748,
+                -1.0,
+                -1.0,
+                -1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "candlestickShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 33246,
+            "max": [
+                0.990973711013794,
+                0.9980079531669616
+            ],
+            "min": [
+                0.0019779920112341644,
+                0.001992047065868974
+            ],
+            "type": "VEC2"
+        }
+    ],
+    "bufferViews": [
+        {
+            "name": "candlestick/data/indices-2",
+            "buffer": 0,
+            "byteOffset": 1595808,
+            "byteLength": 172488,
+            "target": 34963
+        },
+        {
+            "name": "candlestick/data/vertices-12",
+            "buffer": 0,
+            "byteOffset": 531936,
+            "byteLength": 797904,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "name": "candlestick/data/vertices-16",
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 531936,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "name": "candlestick/data/vertices-8",
+            "buffer": 0,
+            "byteOffset": 1329840,
+            "byteLength": 265968,
+            "byteStride": 8,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "name": "candlestick/data",
+            "byteLength": 1768296,
+            "uri": "candlestick0.bin"
+        }
+    ]
+}

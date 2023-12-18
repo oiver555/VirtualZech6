@@ -1,0 +1,201 @@
+{
+    "asset": {
+        "copyright": "(C)2023 osain",
+        "generator": "maya2glTF main fbbc95e5dc4d",
+        "version": "2.0"
+    },
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0,
+    "nodes": [
+        {
+            "name": "pipes",
+            "children": [
+                1
+            ],
+            "translation": [
+                0.0,
+                -2.814333915710449,
+                0.0
+            ]
+        },
+        {
+            "name": "pipes:PIV",
+            "mesh": 0,
+            "translation": [
+                0.0,
+                2.814333915710449,
+                0.0
+            ]
+        }
+    ],
+    "meshes": [
+        {
+            "name": "pipesShape",
+            "extras": {
+                "targetNames": []
+            },
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 2,
+                        "TANGENT": 3,
+                        "TEXCOORD_0": 4
+                    },
+                    "indices": 0,
+                    "mode": 4,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "materials": [
+        {
+            "name": "lambert1",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.4000000059604645,
+                    0.4000000059604645,
+                    0.4000000059604645,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 1.0
+            }
+        }
+    ],
+    "accessors": [
+        {
+            "name": "pipesShape#0/indices",
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5123,
+            "count": 64512,
+            "max": [
+                12959
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        {
+            "name": "pipesShape#0/vertices/NORMAL",
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 12960,
+            "max": [
+                0.999994158744812,
+                0.9996353387832642,
+                0.9999912977218628
+            ],
+            "min": [
+                -0.9999960660934448,
+                -0.9993640780448914,
+                -0.999992311000824
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pipesShape#0/vertices/POSITION",
+            "bufferView": 1,
+            "byteOffset": 155520,
+            "componentType": 5126,
+            "count": 12960,
+            "max": [
+                12.369058609008788,
+                30.28418731689453,
+                13.9639892578125
+            ],
+            "min": [
+                -12.538644790649414,
+                10.440593719482422,
+                -14.832526206970217
+            ],
+            "type": "VEC3"
+        },
+        {
+            "name": "pipesShape#0/vertices/TANGENT",
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 12960,
+            "max": [
+                1.0,
+                0.7447535991668701,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -0.9268261790275574,
+                -0.7379542589187622,
+                -0.9999999403953552,
+                1.0
+            ],
+            "type": "VEC4"
+        },
+        {
+            "name": "pipesShape#0/vertices/TEXCOORD_0",
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 12960,
+            "max": [
+                0.9980080127716065,
+                0.9980780482292176
+            ],
+            "min": [
+                0.0019920319318771364,
+                0.03710609674453736
+            ],
+            "type": "VEC2"
+        }
+    ],
+    "bufferViews": [
+        {
+            "name": "pipes/data/indices-2",
+            "buffer": 0,
+            "byteOffset": 622080,
+            "byteLength": 129024,
+            "target": 34963
+        },
+        {
+            "name": "pipes/data/vertices-12",
+            "buffer": 0,
+            "byteOffset": 207360,
+            "byteLength": 311040,
+            "byteStride": 12,
+            "target": 34962
+        },
+        {
+            "name": "pipes/data/vertices-16",
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 207360,
+            "byteStride": 16,
+            "target": 34962
+        },
+        {
+            "name": "pipes/data/vertices-8",
+            "buffer": 0,
+            "byteOffset": 518400,
+            "byteLength": 103680,
+            "byteStride": 8,
+            "target": 34962
+        }
+    ],
+    "buffers": [
+        {
+            "name": "pipes/data",
+            "byteLength": 751104,
+            "uri": "pipes0.bin"
+        }
+    ]
+}

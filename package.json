@@ -1,5 +1,13 @@
 {
+  "main": "index.js",
+ 
   "type": "module",
+  "scripts": {
+     
+    
+    "build": "vite build",
+    "start": "npx vite"
+  },
   "dependencies": {
     "lil-gui": "^0.18.2",
     "three": "^0.157.0",
